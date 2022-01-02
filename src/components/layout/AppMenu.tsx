@@ -7,11 +7,6 @@ export default function AppMenu(): JSX.Element {
   const frontEnd = ["Random Quote Machine", "Markdown Previewer", "Drum Machine", "Calculator", "Pomodoro Clock"];
   const dataViz = ["Bar Chart", "Scatterplot", "Heat Map", "Chloropleth Map", "Treemap Diagram"];
   const backEnd = ["Timestamp Microservice", "Request Header Parser", "URL Shortener", "Exercise Tracker", "File Metadata"];
-
-  interface Category {
-    category: string,
-    links: string[]
-  }
   
   const categoryList = [
     {
