@@ -8,11 +8,11 @@ export default function LinkList({ links }: { links: string[] }): JSX.Element {
   function linkToListItem(link: string): JSX.Element {
     const linkText = link.toLowerCase().split(" ").join("-");
     return (
-      <ListItemButton key={link}>
-        <Link style={{ textDecoration: "none", color: "black", }} to={link === "Home" ? "/" : `/${linkText}`}>
+      <Link key={link} style={{ textDecoration: "none", color: "black", }} to={link === "Home" ? "/" : `/${linkText}`}>
+        <ListItemButton>
           <ListItemText primary={link} />
-        </Link>
-      </ListItemButton>
+        </ListItemButton>
+      </Link>
     );
   }
 
