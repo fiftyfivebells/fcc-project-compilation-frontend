@@ -28,8 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp CNAME build/",
-    "deploy": "surge build"
+    "predeploy": "npm run build",
+    "deploy": "surge -p build -d fcc-compilation.surge.sh"
   },
   "eslintConfig": {
     "extends": [
