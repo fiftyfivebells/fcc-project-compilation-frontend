@@ -1,5 +1,7 @@
 [![main Actions Status](https://github.com/fiftyfivebells/fcc-project-compilation-frontend/workflows/deploy-main/badge.svg)](https://github.com/fiftyfivebells/fcc-project-compilation-frontend/actions)
 
+Link to live demo can be found at [https://fcc-compilation.surge.sh](https://fcc-compilation.surge.sh).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
