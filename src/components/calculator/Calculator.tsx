@@ -75,7 +75,7 @@ export default function Calculator(): JSX.Element {
 
     if (equation === "" && solution !== "") {
       setEquation(op);
-    } else if (solution === "" || solution == "0" && equation !== "") {
+    } else if ((solution === "" || solution === "0") && equation !== "") {
       setSolution(equation);
       setEquation(op);
     } else if (operators.includes(front)) {
