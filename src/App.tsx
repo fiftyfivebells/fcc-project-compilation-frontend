@@ -13,8 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/random-quote-machine" element={<QuoteGenerator />} />
-          <Route path="/calculator" element={<Calculator />} />
-        </Routes>
+          <Route path="/calculator" element={<Calculator />} />        </Routes>
       </BrowserRouter>
     </>
   );
