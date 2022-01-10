@@ -10,7 +10,6 @@ export default function CalculatorButtons({ clickHandler }: { clickHandler: Reac
     ['1', '2', '3', '\u002B'],
     ['.', '0', '^', '=']
   ];
-  const operators = ['\u00F7', '\u00D7', '\u02D7', '\u002B', '='];
 
   return (
     <Stack
@@ -39,23 +38,6 @@ export default function CalculatorButtons({ clickHandler }: { clickHandler: Reac
           )
         }
       </Grid>
-      {/*       <Grid container item xs={12} sx={{ border: "1px solid purple"}}>
-        <Grid item >
-          {
-            operators.map(operator =>
-
-              <Button
-                key={operator}
-                value={operator}
-                onClick={clickHandler}
-                variant="outlined"
-                fullWidth
-              >{operator}</Button>
-
-            )
-          }
-        </Grid>
-      </Grid> */}
     </Stack>
   )
 }
