@@ -5,7 +5,6 @@ import CalculatorScreen from './CalculatorScreen';
 
 export default function Calculator(): JSX.Element {
 
-  const buttons = ['7', '8', '9', '4', '5', '6', '1', '2', '3', '.', '0'];
   const operators = ['\u00D7', '\u02D7', '\u002B', '\u00F7', '^'];
 
   const [equation, setEquation] = useState("");
