@@ -4,6 +4,7 @@ import AppMenu from './components/layout/AppMenu';
 import Home from './components/Home';
 import QuoteGenerator from './components/QuoteGenerator';
 import Calculator from './components/calculator/Calculator';
+import MarkdownPreviewer from './components/markdown/MarkdownPreviewer';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/random-quote-machine" element={<QuoteGenerator />} />
-          <Route path="/calculator" element={<Calculator />} />        </Routes>
+          <Route path="/calculator" element={<Calculator />} />        
+          <Route path="/markdown-previewer" element={<MarkdownPreviewer />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
